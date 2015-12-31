@@ -234,21 +234,26 @@ header#home-header { background: none; }
 	}
 
 #home-carousel {
-	background: #000 url(images/home-bg.jpg) top center fixed;
-	height: 580px;
+	background: #255AA8 url(images/home-bg.jpgx) top center fixed;
+	/*background: red;*/
+	height: 800px;
 	width: 100%;
 	margin-top: -141px;
-	text-align: center;
+	text-align: left;
 	color: #FFF;
 	}
 	#home-carousel .intro {
 		margin-top: 240px;
+		position: relative;
 		}
 		#home-carousel .intro a { text-decoration: underline; }
 		#home-carousel .intro a:hover { color: #FFF; }
 
 	#home-carousel h1 {
-		margin-bottom: 0;
+		font-size: 5em;
+		font-weight: 700;
+		letter-spacing: -2px;
+		margin-bottom: 30px;
 		-moz-animation-duration: 2s;
 		-moz-animation-delay: 1s;
 		-webkit-animation-duration: 3s;
@@ -256,9 +261,11 @@ header#home-header { background: none; }
 		}
 
 	#home-carousel h2 {
-		font-size: 5em;
-		font-weight: 700;
+		font-size: 2em;
+		color: #98C8FF;
+		line-height: 1.5em;
 		margin-top: 0;
+		margin-bottom: 30px;
 		-moz-animation-duration: 2s;
 		-moz-animation-delay: 2s;
 		-webkit-animation-duration: 2s;
@@ -270,6 +277,11 @@ header#home-header { background: none; }
 
 	  -webkit-animation-delay: 2s;
 	  -webkit-animation-iteration-count: infinite;
+		}
+		#home-carousel .caro-img {
+			position: absolute;
+			right: 0;
+			bottom: 0;
 		}
 		
 #carousel-wrap {
@@ -338,7 +350,7 @@ header#home-header { background: none; }
 	#home-intro .home-intro-info h3 {
 		color: #255AA7;
 		font-weight:700;
-		font-size: 24px;
+		font-size: 18px;
 		border-bottom: 3px solid #255AA7;
 		padding-bottom: 10px;
 		display: inline;
@@ -346,6 +358,7 @@ header#home-header { background: none; }
 	#home-intro .home-intro-info p {
 		margin-top: 30px;
 		margin-bottom: 30px;
+		text-align: justify;
 	}
 #home-services {
 	padding: 50px 0 30px;
@@ -369,6 +382,27 @@ header#home-header { background: none; }
 	background: #EEE;
 	}
 	#home-testimony #testi { margin-top: 30px; }
+
+#blog-snippets {}
+
+	#blog-snippets .blog-thumbnail {
+		display: block;
+	}
+	#blog-snippets .media {
+		margin-top: 0;
+		height: 200px;
+		position: relative;
+	}
+	#blog-snippets .media-body {
+		position: absolute;
+		position: bottom;
+		z-index: 999;
+		background: #111;
+		color: #FFF;
+		font-size: 2rem;
+		padding: 5px;
+	}
+	#blog-snippets h5 a { color: #FFF;}
 
 article {
 	padding: 50px 0;
@@ -1201,6 +1235,8 @@ h5.media-heading {
   transition-delay: 0.1s; }
 .overlay-fade-in-new-background:hover .button {
   transition-delay: 0.2s; }
+
+
 
 /* ----------------------------------------------------*/
 /*FLIP CSS*/
