@@ -31,6 +31,10 @@
 
 <!-- Bootstrap core CSS -->
 <link href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/bootstrap.min.css" rel="stylesheet">
+<!-- Plugin stylesheets -->
+<link href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/plugins/owl.carousel.css" rel="stylesheet">
+<link href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/plugins/owl.theme.css" rel="stylesheet">
+<link href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/plugins/owl.transitions.css" rel="stylesheet">
 
 <?php wp_head(); ?>
 </head>
@@ -64,13 +68,6 @@
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="background:;">
 
-				<!-- <div id="social-top">
-					<a href="https://www.facebook.com/Healthcanbefun" class="btn btn-social" title="Like us on Facebook"><i class="fa fa-facebook"></i></a>
-					<a href="http://instagram.com/healthcanbefun" class="btn btn-social" title="Follow us on Instagram"><i class="fa fa-instagram"></i></a>
-					<a href="https://twitter.com/HCF_sg" class="btn btn-social" title="Follow us on Twitter"><i class="fa fa-twitter"></i></a>
-					<a href="http://www.pinterest.com/Healthcanbefun/" class="btn btn-social" title="Follow us on Pinterest"><i class="fa fa-pinterest"></i></a>
-					<a href="https://www.linkedin.com/company/health-can-be-fun" class="btn btn-social" title="Add us on LinkedIn"><i class="fa fa-linkedin"></i></a>
-				</div> -->
 		
 			  	<div class="clearfix pull-right">
 			  	<?php wp_nav_menu( array(

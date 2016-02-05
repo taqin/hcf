@@ -104,8 +104,8 @@ get_header(); ?>
 				</div>
 				<div class="col-sm-6">
 					<div class="home-intro-info">
-						<p>We are a nutrition company that focus on delivering quality health programmes to corporate companies, families and individuals. Our team of nutritionists advocate skills and knowledge towards a healthier lifestyle for all ages. </p>
-						<p>Being passionate about health and food, we wish to inspire you how easy it is to lead a healthier lifestyle .</p>
+						<p>Health Can Be Fun focus on delivering quality health programmes to <a href="<?php bloginfo( 'url' ); ?>/corporate/">corporate companies</a>, <a href="<?php bloginfo( 'url' ); ?>/family">families</a> and individuals. Our team of nutritionists advocates skills and knowledge towards a healthier lifestyle for all ages.</p>
+						<p>We aim to provide Fun to everyone of all ages, Inspire people to work towards a healthier lifestyle and give Clarity to health myths and jargons. We strongly believe with the right skills set and knowledge everyone can make positive changes to their lives.</p>
 				 	</div><!-- /thumbnail -->
 				</div>    
 				<div class="col-xs-12">
@@ -145,149 +145,63 @@ get_header(); ?>
 	</div>
 
 
-
-
-
-	<div id="home-services" class="row">
+	<div id="home-recipe" class="row jumbotron">
 		<div class="clearfix text-center">
-		 	<h2 class="section-title">Our fun programmes</h2>
-			<div class="col-sm-8 col-sm-offset-2">
-		 		<h3>We constantly develop unique, fun and inspiring programmes to suit each and every health needs and learning styles. These are some of the programmes that we offer. </h3>
-			</div>
-		 	<div id="service-icons" class="col-sm-10 col-sm-offset-1">
-			 	<div class="row">
-				 	<div class="service_item col-xs-6 col-sm-3"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/home-service1.png" class="img-circle img-responsive" alt=""><p>Cooking Demonstrations</p></div>
-				 	<div class="service_item col-xs-6 col-sm-3"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/home-service2.png" class="img-circle img-responsive" alt=""><p>Health Campaigns</p></div>
-				 	<div class="service_item col-xs-6 col-sm-3"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/home-service3.png" class="img-circle img-responsive" alt=""><p>Interventions</p></div>
-				 	<div class="service_item col-xs-6 col-sm-3"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/home-service4.png" class="img-circle img-responsive" alt=""><p>Nutrition Consultancy</p></div>			 		
-			 	</div>
-
-			 	<div class="row">
-				 	<div class="service_item col-xs-6 col-sm-3"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/home-service5.png" class="img-circle img-responsive" alt=""><p>Supermarket Tours</p></div>
-				 	<div class="service_item col-xs-6 col-sm-3"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/home-service6.png" class="img-circle img-responsive" alt=""><p>Talks</p></div>
-				 	<div class="service_item col-xs-6 col-sm-3"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/home-service7.png" class="img-circle img-responsive" alt=""><p>Team-building Events</p></div>
-				 	<div class="service_item col-xs-6 col-sm-3"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/home-service8.png" class="img-circle img-responsive" alt=""><p>Workshops</p></div>			 		
-			 	</div>
-
-			</div>
-			<div class="col-xs-12">
-				<a href="<?php bloginfo( 'url' ); ?>/enquiry" class="btn btn-contact btn-lg">Find out more about the programmes!</a>
-			</div>
-		</div>
-	</div><!-- /page-content -->
-
-	<div id="home-select" class="row jumbotron">
-		<div class="clearfix text-center">
-		 	<h2 class="section-title">Help us help you</h2>
+		 	<h2 class="section-title">Recipes</h2>
 
 		 	<div id="home-select-info" class="col-sm-10 col-sm-offset-1">
 
-					<div class="flip-container col-lg-4" ontouchstart="this.classList.toggle('hover');">
-						<div class="flipper">
-							<div class="front">
-								<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/home1.jpg" class="img-circle img-responsive" alt="">
-							</div>
-							<div class="back">
-								<a href="<?php bloginfo( 'url' ); ?>/corporate">
-								<h3 class="back-title">Corporate</h3>
-								<p>You are in the Workforce. We can promote workplace health with fun and engaging programmes to show you how easy it is to lead a healthier lifestyle. </p>
-								<i class="fa fa-chevron-circle-right"></i>
-								</a>
-							</div>
-						</div>
-					</div>
-
-					<div class="flip-container col-lg-4" ontouchstart="this.classList.toggle('hover');">
-						<div class="flipper">
-							<div class="front">
-								<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/home2.jpg" class="img-circle img-responsive" alt="">
-							</div>
-							<div class="back">
-								<a href="<?php bloginfo( 'url' ); ?>/family">
-								<h3 class="back-title">Family</h3>
-								<p>You have a family. We want to give the best to your family, especially the young ones. We have specially catered programmes for children to have a great time while learning the importance of their health. </p>
-								<i class="fa fa-chevron-circle-right"></i>
-								</a>
-							</div>
-						</div>
-					</div>
-
-					<div class="flip-container col-lg-4" ontouchstart="this.classList.toggle('hover');">
-						<div class="flipper">
-							<div class="front">
-								<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/home3.jpg" class="img-circle img-responsive" alt="">
-							</div>
-							<div class="back">
-								<a href="<?php bloginfo( 'url' ); ?>/individual">
-								<h3 class="back-title">Individual</h3>
-								<p>You are an individual who wants to find out more about nutrition and health. Speak to us, we cater to different needs. </p>
-								<i class="fa fa-chevron-circle-right"></i>
-								</a>
-							</div>
-						</div>
-					</div>
-
 			</div>
-				<a href="<?php bloginfo( 'url' ); ?>/enquiry" class="btn btn-contact btn-lg">Get Started Today!</a>
+			<a href="<?php bloginfo( 'url' ); ?>/enquiry" class="btn btn-contact btn-lg">Find out more</a>
 		</div>
 	</div><!-- /page-content -->
 
-	<div id="home-testimony" class="row">
-		<div class="clearfix text-center">
-		 	<h2 class="section-title">What the people say</h2>
 
-		 	<div id="testi" class="col-sm-10 col-sm-offset-1">
-			 	<div class="service_item col-sm-3">
-			 		<blockquote>
-			 			<p>Health Can Be Fun makes us cautious to eat balance diet/food for a healthier body</p>
-  						<footer>A.M <cite title="Source Title">Retail Industry</cite></footer>
-			 		</blockquote>
-			 	</div>
-			 	<div class="service_item col-sm-3">
-			 		<blockquote>
-			 			<p>My kids love it because the activities are fun and I love it because they are eating their greens unknowingly!</p>
-  						<footer>Maya <cite title="Source Title">Stay Home Mom</cite></footer>
-			 		</blockquote>
-			 	</div>
-			 	<div class="service_item col-sm-3">
-			 		<blockquote>
-			 			<p>The presenter is very knowledgeable. She delivers her presentation well and engages her audiences well.</p>
-  						<footer>Steve <cite title="Source Title">Financial Company</cite></footer>
-			 		</blockquote>
-			 	</div>
-			 	<div class="service_item col-sm-3">
-			 		<blockquote>
-			 			<p>For the first time I can see my son eat his vegetables without complaining just because he wants to win in the race.</p>
-  						<footer>Mr Chris <cite title="Source Title">Oil and Gas Industry</cite></footer>
-			 		</blockquote>
-			 	</div>
-			</div>
-		</div>
+	<!-- Blog Section -->
+    <section id="blog-snippets" class="portfolio content-section">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-12">
+                	<h2 class="section-title">Our Blog</h2>
+		 			<h3>We constantly develop unique, fun and inspiring programmes to suit each and every health needs and learning styles. These are some of the programmes that we offer. </h3>
+                </div><!-- /.col-md-12 -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
 
-		<div id="blog-snippets" class="row no-gutter">
+        <div class="container project-container text-center">
+            <div class="recent-project-carousel owl-carousel owl-theme popup-gallery">
+			
 
-			<?php query_posts('howposts=-1&posts_per_page=4'); ?>
+			<?php query_posts('howposts=-1&posts_per_page=10'); ?>
 			<?php if ( have_posts() ) : while ( have_posts() ) : the_post();  ?>
 			<?php //the_post(); ?>
-			<div class="media col-md-3">
-				<div class="media-body">
-					<h5 class=""><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h5>
-			    <?php //the_excerpt(); ?>
-			  	<p><a href="<?php the_permalink(); ?>">Read More</a></p>
-			  </div>
 
-			  <a class="blog-thumbnail" href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
-			  	<?php the_post_thumbnail('medium-thumb',array( 'class' => 'media-object img-responsive' )); ?>	
-				</a>
-
-			  
-			</div><!-- /media -->
+                <div class="item recent-project">
+                    <?php the_post_thumbnail('large-thumb',array( 'class' => 'media-object img-responsive' )); ?>	
+                    <div class="project-info">
+                        <h3><?php the_title(); ?></h3>
+                        <ul class="project-meta">
+                            <li><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">Read More</a></li>
+                        </ul>
+                    </div><!-- /.project-info -->
+                    <div class="full-project">
+                        <a class="blog-thumbnail" href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><i class="fa fa-chevron-right"></i></a>
+                    </div><!-- /.full-project -->
+                </div><!-- /.item -->
 			<?php endwhile; ?>
 			<?php endif;  wp_reset_query(); ?>
-		</div>
 
 
-	</div><!-- /page-content -->
+
+            </div><!-- /.recent-project-carousel -->
+
+            <div class="customNavigation project-navigation text-center">
+                <a class="btn-prev"><i class="fa fa-angle-left fa-2x"></i></a>
+                <a class="btn-next"><i class="fa fa-angle-right fa-2x"></i></a>
+            </div><!-- /.project-navigation -->
+
+        </div><!-- /.container -->
+    </section><!-- /.portfolio -->
 
 <? /*
 	<div class="jumbotron">

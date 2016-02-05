@@ -10,58 +10,65 @@
  */
 ?>
 
-	
-	<div class="footer clearfix">
-		<div id="inner-footer" class="clearfix" >
-			<div class="container">
-				<div class="col-md-3 col-sm-6">
-					<h4>About HCF</h4>
-					<p class="small">Health Can Be Fun focus on delivering quality health programmes to <a href="<?php bloginfo( 'url' ); ?>/corporate/">corporate companies</a>, <a href="<?php bloginfo( 'url' ); ?>/family">families</a> and individuals. Our team of nutritionists advocates skills and knowledge towards a healthier lifestyle for all ages.</p>
-					<p class="small">We aim to provide Fun to everyone of all ages, Inspire people to work towards a healthier lifestyle and give Clarity to health myths and jargons. We strongly believe with the right skills set and knowledge everyone can make positive changes to their lives.</p>
-					<p><a href="<?php bloginfo( 'url' ); ?>/about">Read More</a></p>
-				</div>
-				<div class="col-md-3 col-sm-6">
-					<h4>Get in Touch!</h4>
-					<div class="footer-enquiry">
-					<?php echo do_shortcode( '[contact-form-7 id="22" title="Footer Enquiry"]' ) ?>
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-6">
-					<h4>Drop Us a Visit</h4>
-					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3988.707276454304!2d103.835047!3d1.352187!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da173af504b455%3A0x8959f09065e05a8f!2sSingapore+574348!5e0!3m2!1sen!2s!4v1407915754945" width="260" height="120" frameborder="0" style="border:0"></iframe>
-					<p>213 Upper Thomson Road #04-01 <br>Singapore 574348</p>
-					<p class="small">Main: +65 6554 1106 / +65 6554 1175 </p>
-					<p class="small">Email: <a href="mailto:startnow@healthcanbefun.com.sg">startnow@healthcanbefun.com.sg</a></p>
-				</div>
-				<div class="col-md-3 col-sm-6">
-					<h4>Our Healthy Blog</h4>
-					<?php query_posts('howposts=-1&posts_per_page=4'); ?>
-					<?php if ( have_posts() ) : while ( have_posts() ) : the_post();  ?>
-					<?php //the_post(); ?>
-					<div class="media">
-					  	<a class="pull-left" href="#">
-					  	<?php the_post_thumbnail('footer-thumb',array( 'class' => 'media-object' )); ?>	
-						</a>
-					  <div class="media-body">
-					    <h5 class="media-heading"><a href="<?php the_permalink(); ?>" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h5>
-					    <?php //the_excerpt(); ?>
-					  	<p><a href="<?php the_permalink(); ?>">Read More</a></p>
-					  </div>
-					</div><!-- /media -->
-					<?php endwhile; ?>
-					<?php endif;  wp_reset_query(); ?>
-				</div>
-			</div>
 
-		</div><!-- /container -->
-		<div id="end-footer" class="container">
-			<div class="addthis_sharing_toolbox"></div>
-			<p class="clearfix">Copyright &copy; 2014 HealthCanBeFun.com.sg | All Rights Reserved</p>
-		</div><!-- /col-lg-3 -->			
-    </div><!-- /footer -->
+	<div class="map-container">
+	    <div class="row">
+	        <section id="cd-google-map no-bottom-pad">
+	            <div id="google-container"></div>
+	            <div id="cd-zoom-in"></div>
+	            <div id="cd-zoom-out"></div>
+	        </section>
+	    </div><!-- /.row -->
+	</div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-12 segment">
+                    <a href="#" title="Hallooou - HTML5 Template">
+                        <h2>
+                        	<img class="img-responsive" src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/logo.png" alt="<?php bloginfo( 'name' ); ?>">
+                        </h2>
+                    </a>
+                </div><!-- /.col-md-12 -->
+            </div><!-- /.row -->
+
+            <div class="row text-center">
+                <div class="col-md-12 social segment">
+                    <h4>Stay Connected</h4>
+                    <p class="white">Contact us to start planning. We’re as excited as you are!</p>
+
+                    <div class="addthis_sharing_toolbox"></div>
+                    
+                    <p><address>170 Upper Bukit Timah Road #18-01 Singapore 588179 </address><strong>Main:</strong> +65 6463 3707 / +65 6363 3708 <strong>Email:</strong> <a href="mailto:startnow@healthcanbefun.com.sg" >startnow@healthcanbefun.com.sg</a></p>
+                    
+                </div><!-- /.col-md-12 -->
+            </div><!-- /.row -->
+
+        </div><!-- /.container -->
+
+        <div class="copynote">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        Copyright &copy; 2016 HealthCanBeFun.com.sg | All Rights Reserved
+                    </div><!-- /.col-md-12 -->
+
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </div><!-- /.copynote -->
+
+        <div class="nav pull-right scroll-top">
+            <a href="#home" title="Scroll to top"><i class="fa fa-angle-up"></i></a>
+        </div>
+
+    </footer><!-- /.footer -->
+
 
 
 </div> <!-- / MAIN container -->
+
 
 
     <!-- Bootstrap core JavaScript
@@ -69,7 +76,24 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/plugins/wow.min.js"></script>    
+    <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/plugins/owl.carousel.min.js"></script>
+    <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/plugins/jquery.parallax-1.1.3.js"></script>
+<!--    <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/plugins/jquery.magnific-popup.min.js"></script>
+    <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/plugins/jquery.mb.YTPlayer.min.js"></script>
+    <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/plugins/jquery.countTo.js"></script>
+    <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/plugins/jquery.inview.min.js"></script>
+    <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/plugins/pace.min.js"></script>
+    <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/plugins/jquery.easing.min.js"></script>
+    <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/plugins/jquery.validate.min.js"></script> -->
+    
+
+    <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/main.js"></script>
+
 	<script src="http://js.addthisevent.com/atemay.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDCIlfm3fUbRP1CQSC4H2ac1X4_KzIsAOU"></script>
     <!-- Placed at the end of the document so the pages load faster -->
     
     <link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/animate.min.css">
@@ -106,7 +130,7 @@
 	    }
 	  });
 	});
-			
+
 
   	</script>
   	<script>
