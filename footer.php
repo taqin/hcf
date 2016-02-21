@@ -41,7 +41,7 @@
 
                     <div class="addthis_sharing_toolbox"></div>
                     
-                    <p><address>170 Upper Bukit Timah Road #18-01 Singapore 588179 </address><strong>Main:</strong> +65 6463 3707 / +65 6363 3708 <strong>Email:</strong> <a href="mailto:startnow@healthcanbefun.com.sg" >startnow@healthcanbefun.com.sg</a></p>
+                    <p><address>170 Upper Bukit Timah Road #18-01 Singapore 588179 </address><strong>Main:</strong> +65 6463 3707 / +65 6463 3708 <strong>Email:</strong> <a href="mailto:startnow@healthcanbefun.com.sg" >startnow@healthcanbefun.com.sg</a></p>
                     
                 </div><!-- /.col-md-12 -->
             </div><!-- /.row -->

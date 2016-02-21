@@ -79,13 +79,10 @@ get_header(); ?>
 */?>
 
 	<div id="home-carousel" class="row">
-		<div class="intro container">
-			<h1 class="xanimated xfadeIn">We are your<br>healthy Consultant</h1>
-			<h2>Helping you stay fun and <br>healthy makes us happy</h2>
-			<a href="<?php bloginfo( 'url' ); ?>/about" class="btn btn-contact btn-lg">learn more</a>
-			<div class="caro-img">
-			<object type="image/svg+xml" height="400" data="<?php bloginfo( 'stylesheet_directory' ); ?>/images/home-caro.svg">Your browser does not support SVG</object>
-			</div>
+		<div class="intro container text-center">
+			<h1 class="xanimated xfadeIn">We are your<br>health consultant</h1>
+			<h2>Helping you stay healthy makes us happy</h2>
+			<a href="#home-intro" class=""><i class="fa fa-angle-down fa-5x animated infinite bounceIn"></i></a>
 		</div>
 	</div>
 
@@ -94,20 +91,11 @@ get_header(); ?>
 	
 	<div id="home-intro" class="row">
 		<div class="clearfix text-center">
-		 	<h2 class="section-title">About Us</h2>
-		 	<div class="col-sm-8 col-sm-offset-2">
-				<div class="col-sm-6">
-				 	<div class="home-intro-info">
-				 		<p>We are a nutrition company that focus on delivering quality health programmes to corporate companies, families and individuals. Our team of nutritionists advocate skills and knowledge towards a healthier lifestyle for all ages. </p>
-						<p>We design unique programmes and tools that integrate fun theories and scientific evidences to understand how to improve health and well being. We just want you to have fun! </p>
-				 	</div><!-- /thumbnail -->
-				</div>
-				<div class="col-sm-6">
-					<div class="home-intro-info">
-						<p>Health Can Be Fun focus on delivering quality health programmes to <a href="<?php bloginfo( 'url' ); ?>/corporate/">corporate companies</a>, <a href="<?php bloginfo( 'url' ); ?>/family">families</a> and individuals. Our team of nutritionists advocates skills and knowledge towards a healthier lifestyle for all ages.</p>
-						<p>We aim to provide Fun to everyone of all ages, Inspire people to work towards a healthier lifestyle and give Clarity to health myths and jargons. We strongly believe with the right skills set and knowledge everyone can make positive changes to their lives.</p>
-				 	</div><!-- /thumbnail -->
-				</div>    
+		 	<h2 class="section-title">Fun . Inspire . Clarity</h2>
+		 	<div class="col-sm-6 col-sm-offset-3">
+			 	<div class="home-intro-info">
+			 		<p class="lead-title">Health Can Be Fun aims to be the leading nutrition consultancy in Singapore, to help clients discover the joys of living a fit and healthy life. We believe everyone deserves good nutrition and fitness in their lives.</p>
+			 	</div>
 				<div class="col-xs-12">
 					<a href="<?php bloginfo( 'url' ); ?>/enquiry" class="btn btn-contact btn-lg">Find out more about us!</a>
 				</div>
@@ -118,36 +106,88 @@ get_header(); ?>
 
 
 	<div id="" class="row no-gutter">
-		<div class="col-md-4">
-			<img src="http://placehold.it/600x450" class="img-responsive">
+		<div class="col-md-3">			
+			<div class="hovereffect">
+		        <img src="http://placehold.it/600x450" class="img-responsive">
+		        <div class="overlay">
+		           <h2>Balance</h2>
+		           <a class="info" href="#">Learn More</a>
+		        </div>
+		    </div>
 		</div>
-		<div class="col-md-4">
-			<img src="http://placehold.it/600x450" class="img-responsive">
+		<div class="col-md-3">
+			<div class="hovereffect">
+		        <img src="http://placehold.it/600x450" class="img-responsive">
+		        <div class="overlay">
+		           <h2>Boost</h2>
+		           <a class="info" href="#">Learn More</a>
+		        </div>
+		    </div>
 		</div>
-		<div class="col-md-4">
-			<img src="http://placehold.it/600x450" class="img-responsive">
+		<div class="col-md-3">
+			<div class="hovereffect">
+		        <img src="http://placehold.it/600x450" class="img-responsive">
+		        <div class="overlay">
+		           <h2>Cool</h2>
+		           <a class="info" href="#">Learn More</a>
+		        </div>
+		    </div>
 		</div>	
+		<div class="col-md-3">
+			<div class="hovereffect">
+		        <img src="http://placehold.it/600x450" class="img-responsive">
+		        <div class="overlay">
+		           <h2>Graceful</h2>
+		           <a class="info" href="#">Learn More</a>
+		        </div>
+		    </div>
+		</div>
 	</div>
 
 	<div id="" class="row no-gutter">
 		<div class="col-md-3">
-			<img src="http://placehold.it/500x450" class="img-responsive">
+			<div class="hovereffect">
+		        <img src="http://placehold.it/600x450" class="img-responsive">
+		        <div class="overlay">
+		           <h2>Happy</h2>
+		           <a class="info" href="#">Learn More</a>
+		        </div>
+		    </div>
 		</div>
 		<div class="col-md-3">
-			<img src="http://placehold.it/500x450" class="img-responsive">
+			<div class="hovereffect">
+		        <img src="http://placehold.it/600x450" class="img-responsive">
+		        <div class="overlay">
+		           <h2>Harmony</h2>
+		           <a class="info" href="#">Learn More</a>
+		        </div>
+		    </div>
 		</div>
 		<div class="col-md-3">
-			<img src="http://placehold.it/500x450" class="img-responsive">
+			<div class="hovereffect">
+		        <img src="http://placehold.it/600x450" class="img-responsive">
+		        <div class="overlay">
+		           <h2>Healthy</h2>
+		           <a class="info" href="#">Learn More</a>
+		        </div>
+		    </div>
 		</div>
 		<div class="col-md-3">
-			<img src="http://placehold.it/500x450" class="img-responsive">
-		</div>		
+			<div class="hovereffect">
+		        <img src="http://placehold.it/600x450" class="img-responsive">
+		        <div class="overlay">
+		           <h2>Revamp</h2>
+		           <a class="info" href="#">Learn More</a>
+		        </div>
+		    </div>
+		</div>			
 	</div>
 
 
 	<div id="home-recipe" class="row jumbotron">
 		<div class="clearfix text-center">
 		 	<h2 class="section-title">Recipes</h2>
+		 	<p class="lead-title">Our adapted healthy way of eating</p>
 
 		 	<div id="home-select-info" class="col-sm-10 col-sm-offset-1">
 
@@ -162,8 +202,7 @@ get_header(); ?>
         <div class="container">
             <div class="row text-center">
                 <div class="col-md-12">
-                	<h2 class="section-title">Our Blog</h2>
-		 			<h3>We constantly develop unique, fun and inspiring programmes to suit each and every health needs and learning styles. These are some of the programmes that we offer. </h3>
+                	<h3 class="section-title">Nutritional bite sized information</h3>
                 </div><!-- /.col-md-12 -->
             </div><!-- /.row -->
         </div><!-- /.container -->
@@ -172,25 +211,76 @@ get_header(); ?>
             <div class="recent-project-carousel owl-carousel owl-theme popup-gallery">
 			
 
-			<?php query_posts('howposts=-1&posts_per_page=10'); ?>
-			<?php if ( have_posts() ) : while ( have_posts() ) : the_post();  ?>
-			<?php //the_post(); ?>
-
                 <div class="item recent-project">
-                    <?php the_post_thumbnail('large-thumb',array( 'class' => 'media-object img-responsive' )); ?>	
+                    <img src="http://placehold.it/400x250" class="img-responsive">
                     <div class="project-info">
-                        <h3><?php the_title(); ?></h3>
-                        <ul class="project-meta">
-                            <li><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">Read More</a></li>
-                        </ul>
+                        <h3>Lifestyle</h3>
                     </div><!-- /.project-info -->
                     <div class="full-project">
-                        <a class="blog-thumbnail" href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><i class="fa fa-chevron-right"></i></a>
+                        <a class="blog-thumbnail" href="#" title="">Read More<i class="fa fa-chevron-right"></i></a>
                     </div><!-- /.full-project -->
                 </div><!-- /.item -->
-			<?php endwhile; ?>
-			<?php endif;  wp_reset_query(); ?>
 
+                <div class="item recent-project">
+                    <img src="http://placehold.it/400x250" class="img-responsive">
+                    <div class="project-info">
+                        <h3>Fitness</h3>
+                    </div><!-- /.project-info -->
+                    <div class="full-project">
+                        <a class="blog-thumbnail" href="#" title="">Read More<i class="fa fa-chevron-right"></i></a>
+                    </div><!-- /.full-project -->
+                </div><!-- /.item -->
+
+                <div class="item recent-project">
+                    <img src="http://placehold.it/400x250" class="img-responsive">
+                    <div class="project-info">
+                        <h3>Men</h3>
+                    </div><!-- /.project-info -->
+                    <div class="full-project">
+                        <a class="blog-thumbnail" href="#" title="">Read More<i class="fa fa-chevron-right"></i></a>
+                    </div><!-- /.full-project -->
+                </div><!-- /.item -->
+                
+                <div class="item recent-project">
+                    <img src="http://placehold.it/400x250" class="img-responsive">
+                    <div class="project-info">
+                        <h3>Women</h3>
+                    </div><!-- /.project-info -->
+                    <div class="full-project">
+                        <a class="blog-thumbnail" href="#" title="">Read More<i class="fa fa-chevron-right"></i></a>
+                    </div><!-- /.full-project -->
+                </div><!-- /.item -->
+
+                <div class="item recent-project">
+                    <img src="http://placehold.it/400x250" class="img-responsive">
+                    <div class="project-info">
+                        <h3>Parents</h3>
+                    </div><!-- /.project-info -->
+                    <div class="full-project">
+                        <a class="blog-thumbnail" href="#" title="">Read More<i class="fa fa-chevron-right"></i></a>
+                    </div><!-- /.full-project -->
+                </div><!-- /.item -->
+
+                <div class="item recent-project">
+                    <img src="http://placehold.it/400x250" class="img-responsive">
+                    <div class="project-info">
+                        <h3>Corporate</h3>
+                    </div><!-- /.project-info -->
+                    <div class="full-project">
+                        <a class="blog-thumbnail" href="#" title="">Read More<i class="fa fa-chevron-right"></i></a>
+                    </div><!-- /.full-project -->
+                </div><!-- /.item -->
+                
+                <div class="item recent-project">
+                    <img src="http://placehold.it/400x250" class="img-responsive">
+                    <div class="project-info">
+                        <h3>Foodies</h3>
+                    </div><!-- /.project-info -->
+                    <div class="full-project">
+                        <a class="blog-thumbnail" href="#" title="">Read More<i class="fa fa-chevron-right"></i></a>
+                    </div><!-- /.full-project -->
+                </div><!-- /.item -->
+                
 
 
             </div><!-- /.recent-project-carousel -->

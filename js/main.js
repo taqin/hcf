@@ -214,7 +214,8 @@ jQuery(function() {
             mapTypeControl: false,
             streetViewControl: true,
             mapTypeId: google.maps.MapTypeId.ROADMAP,
-            scrollwheel: true,
+            scrollwheel: false
+            ,
             styles: style,
         }
         //inizialize the map
