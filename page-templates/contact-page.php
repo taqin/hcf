@@ -29,7 +29,7 @@ get_header(); ?>
 		<div class="row">
 			<div class="container">
 				<h2 class="section-title">Your friendly health consultants</h2>
-				<h3>Contact us to start planning. We’re as excited as you are!</h3>
+				<h3>We want to hear from you</h3>
 				<a href="<?php bloginfo( 'url' ); ?>/enquiry" class="btn btn-contact btn-lg">Get Started!</a>
 				
 			</div><!-- /container -->

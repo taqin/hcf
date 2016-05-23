@@ -258,7 +258,7 @@ jQuery(function() {
     var owl = $(".recent-project-carousel");
 
     owl.owlCarousel({
-        items: 4, //5 items above 1000px browser width
+        items: 2, //5 items above 1000px browser width
         itemsDesktop: [1024, 4], //4 items between 1000px and 901px
         itemsDesktopSmall: [900, 2], // betweem 900px and 601px
         itemsTablet: [600, 2], //2 items between 600 and 480
@@ -283,7 +283,7 @@ jQuery(function() {
 jQuery(function(){
     // apply parallax effect only when body has the ".parallax-page" class
     
-     $('#home-recipe').parallax("50%", 0.1);
+     ///$('#home-recipe').parallax("50%", 0.1);
 
     if ($('body').hasClass('parallax-page')) {
         //.parallax(xPosition, speedFactor, outerHeight) options:

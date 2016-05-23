@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Blog Listing Page Template
+ * The template for displaying all pages
  *
  * This is the template that displays all pages by default.
  * Please note that this is the WordPress construct of pages
@@ -29,7 +29,7 @@ get_header(); ?>
 		<div class="row">
 			<div class="container">
 				<h2 class="section-title">Your friendly health consultants</h2>
-				<h3>Bring clarity to all health myths and jargons</h3>
+				<h3>Contact us to start planning. We’re as excited as you are!</h3>
 				<a href="<?php bloginfo( 'url' ); ?>/enquiry" class="btn btn-contact btn-lg">Get Started!</a>
 				
 			</div><!-- /container -->
@@ -38,40 +38,27 @@ get_header(); ?>
 
 
 	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-		<?php $query = new WP_Query( 'posts_per_page=10' ); ?>
 		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 		<div class="container">
 
 			<div class="entry-content">
 
-
 				<div class="col-sm-12">
 					<h1><? the_title(); ?></h1>
+				</div>
 
-						<div id="grid" data-columns>
-						<?php query_posts('howposts=-1'); ?>
-						<?php if ( have_posts() ) : while ( have_posts() ) : the_post();  ?>
-						<?php //the_post(); ?>
-			            <div class="panel panel-default text-center blog-listing">
-			            	<div class="panel-body">
-			            	<a href="<?php the_permalink(); ?>">
-						    <?php the_post_thumbnail('post-thumbnails',array( 'class' => 'img-responsive' )); ?>	
-						    </a>
-            				<h4 class="media-heading"><a href="<?php the_permalink(); ?>" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h4>
+				<div class="col-sm-8">
+					<?php the_content(); ?>
 
-            				<?php the_excerpt(); ?>
-
-	            		  	</div>
-
-	            		  	<div class="panel-footer"><span><a href="<?php the_permalink(); ?>">Read More</a></span></div>
-	            		 </div>
-
-	            		<?php endwhile; ?>
-						<?php endif;  wp_reset_query(); ?>
-						</div>
-
-
-					</div>
+					<h2>Ingredients</h2>
+					<?php the_field('recipe_ingredients'); ?>
+				
+					
+					<h2>Instructions</h2>
+					<?php the_field('recipe_instructions'); ?>
+				</div>
+				
+				<div class="col-sm-4 text-center">
 				</div>
 
 			</div>

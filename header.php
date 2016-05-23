@@ -60,7 +60,11 @@
 			  </button>
   			  <h1 id="site-logo" class="site-title pull-left">
   			  	<a href="<?php bloginfo( 'url' ); ?>" title="HCF" rel="home">
-	    			<img class="img-responsive" src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/logo.png" alt="<?php bloginfo( 'name' ); ?>">
+  			  		<?php if ( is_home() ) { ?>
+					<img class="img-responsive" src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/logo.png" alt="<?php bloginfo( 'name' ); ?>">
+					<?} else { ?>
+					<img class="img-responsive" src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/logo-blue.png" alt="<?php bloginfo( 'name' ); ?>">
+					<?php } ?>
   			  	</a>
   			  </h1>
 			</div>

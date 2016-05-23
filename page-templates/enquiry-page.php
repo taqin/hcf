@@ -20,7 +20,7 @@ get_header(); ?>
 			<div class="col-sm-10 col-sm-offset-1">
           		<h2 class="section-title">Let's get in touch!</h2>
           		<h3>Our team of nutritionists, creative, educators, and mothers are always interested to work with you.</h3> 
-		  		<h4>If you need to talk to our business office straight away please call +65 6554 1106.</h4>
+		  		<h4>If you need to talk to our business office straight away please call +65 6463 3707.</h4>
         		
         		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 				<?php the_content(); ?>

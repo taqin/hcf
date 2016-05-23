@@ -90,14 +90,14 @@ get_header(); ?>
 
 	
 	<div id="home-intro" class="row">
-		<div class="clearfix text-center">
+		<div class="clearfix text-center container">
 		 	<h2 class="section-title">Fun . Inspire . Clarity</h2>
 		 	<div class="col-sm-6 col-sm-offset-3">
 			 	<div class="home-intro-info">
-			 		<p class="lead-title">Health Can Be Fun aims to be the leading nutrition consultancy in Singapore, to help clients discover the joys of living a fit and healthy life. We believe everyone deserves good nutrition and fitness in their lives.</p>
+			 		<p class="lead-title">Health Can Be Fun aims to be Singapore’s leading nutrition consultancy company.We want you to discover the joys of living a fit and healthy life.We believe everyone deserves good nutrition and fitness in their lives.</p>
 			 	</div>
 				<div class="col-xs-12">
-					<a href="<?php bloginfo( 'url' ); ?>/enquiry" class="btn btn-contact btn-lg">Find out more about us!</a>
+					<a href="<?php bloginfo( 'url' ); ?>/enquiry" class="btn btn-contact btn-lg">More about us!</a>
 				</div>
 			</div>
 		</div><!-- /container -->
@@ -105,39 +105,39 @@ get_header(); ?>
 
 
 
-	<div id="" class="row no-gutter">
+	<div id="home-services" class="row no-gutter">
 		<div class="col-md-3">			
 			<div class="hovereffect">
-		        <img src="http://placehold.it/600x450" class="img-responsive">
+		        <img src="<?php bloginfo('stylesheet_directory') ?>/images/service1-balance.jpg" class="img-responsive">
 		        <div class="overlay">
-		           <h2>Balance</h2>
+		           <h2>Corporate Wellness</h2>
 		           <a class="info" href="#">Learn More</a>
 		        </div>
 		    </div>
 		</div>
 		<div class="col-md-3">
 			<div class="hovereffect">
-		        <img src="http://placehold.it/600x450" class="img-responsive">
+		        <img src="<?php bloginfo('stylesheet_directory') ?>/images/service2-boost.jpg" class="img-responsive">
 		        <div class="overlay">
-		           <h2>Boost</h2>
+		           <h2>Supermarket Tour</h2>
 		           <a class="info" href="#">Learn More</a>
 		        </div>
 		    </div>
 		</div>
 		<div class="col-md-3">
 			<div class="hovereffect">
-		        <img src="http://placehold.it/600x450" class="img-responsive">
+		        <img src="<?php bloginfo('stylesheet_directory') ?>/images/service3-cool.jpg" class="img-responsive">
 		        <div class="overlay">
-		           <h2>Cool</h2>
+		           <h2>Healthy Cooking</h2>
 		           <a class="info" href="#">Learn More</a>
 		        </div>
 		    </div>
 		</div>	
 		<div class="col-md-3">
 			<div class="hovereffect">
-		        <img src="http://placehold.it/600x450" class="img-responsive">
+		        <img src="<?php bloginfo('stylesheet_directory') ?>/images/service4-graceful.jpg" class="img-responsive">
 		        <div class="overlay">
-		           <h2>Graceful</h2>
+		           <h2>Recipes</h2>
 		           <a class="info" href="#">Learn More</a>
 		        </div>
 		    </div>
@@ -145,54 +145,45 @@ get_header(); ?>
 	</div>
 
 	<div id="" class="row no-gutter">
-		<div class="col-md-3">
+		<div class="col-md-4">
 			<div class="hovereffect">
-		        <img src="http://placehold.it/600x450" class="img-responsive">
+		        <img src="<?php bloginfo('stylesheet_directory') ?>/images/service5-happy.jpg" class="img-responsive">
 		        <div class="overlay">
-		           <h2>Happy</h2>
+		           <h2>Personalised Dietary Consultation</h2>
 		           <a class="info" href="#">Learn More</a>
 		        </div>
 		    </div>
 		</div>
-		<div class="col-md-3">
+		<div class="col-md-4">
 			<div class="hovereffect">
-		        <img src="http://placehold.it/600x450" class="img-responsive">
+		        <img src="<?php bloginfo('stylesheet_directory') ?>/images/service8-revamp.jpg" class="img-responsive">
 		        <div class="overlay">
-		           <h2>Harmony</h2>
+		           <h2>Nutrition Education</h2>
 		           <a class="info" href="#">Learn More</a>
 		        </div>
 		    </div>
 		</div>
-		<div class="col-md-3">
+		<div class="col-md-4">
 			<div class="hovereffect">
-		        <img src="http://placehold.it/600x450" class="img-responsive">
+		        <img src="<?php bloginfo('stylesheet_directory') ?>/images/service7-healthy.jpg" class="img-responsive">
 		        <div class="overlay">
-		           <h2>Healthy</h2>
+		           <h2>Food Industry Consultation</h2>
 		           <a class="info" href="#">Learn More</a>
 		        </div>
 		    </div>
-		</div>
-		<div class="col-md-3">
-			<div class="hovereffect">
-		        <img src="http://placehold.it/600x450" class="img-responsive">
-		        <div class="overlay">
-		           <h2>Revamp</h2>
-		           <a class="info" href="#">Learn More</a>
-		        </div>
-		    </div>
-		</div>			
+		</div>		
 	</div>
 
 
 	<div id="home-recipe" class="row jumbotron">
 		<div class="clearfix text-center">
 		 	<h2 class="section-title">Recipes</h2>
-		 	<p class="lead-title">Our adapted healthy way of eating</p>
+		 	<p class="lead-title">Healthy and Tasty</p>
 
 		 	<div id="home-select-info" class="col-sm-10 col-sm-offset-1">
 
 			</div>
-			<a href="<?php bloginfo( 'url' ); ?>/enquiry" class="btn btn-contact btn-lg">Find out more</a>
+			<a href="<?php bloginfo( 'url' ); ?>/recipes" class="btn btn-contact btn-lg">Get one now</a>
 		</div>
 	</div><!-- /page-content -->
 
@@ -202,7 +193,8 @@ get_header(); ?>
         <div class="container">
             <div class="row text-center">
                 <div class="col-md-12">
-                	<h3 class="section-title">Nutritional bite sized information</h3>
+                	<h3 class="section-title">Nutrition</h3>
+                	<p class="lead-title">Your daily bite size nutrient reads</p>
                 </div><!-- /.col-md-12 -->
             </div><!-- /.row -->
         </div><!-- /.container -->
@@ -212,74 +204,25 @@ get_header(); ?>
 			
 
                 <div class="item recent-project">
-                    <img src="http://placehold.it/400x250" class="img-responsive">
+                    <img src="<?php bloginfo('stylesheet_directory') ?>/images/blog1-lifestyle.jpg" class="img-responsive">
                     <div class="project-info">
                         <h3>Lifestyle</h3>
                     </div><!-- /.project-info -->
                     <div class="full-project">
-                        <a class="blog-thumbnail" href="#" title="">Read More<i class="fa fa-chevron-right"></i></a>
+                        <a class="blog-thumbnail" href="<?php bloginfo( 'url' ); ?>/blog" title="">Read More<i class="fa fa-chevron-right"></i></a>
                     </div><!-- /.full-project -->
                 </div><!-- /.item -->
 
                 <div class="item recent-project">
-                    <img src="http://placehold.it/400x250" class="img-responsive">
+                    <img src="<?php bloginfo('stylesheet_directory') ?>/images/blog2-fitness.jpg" class="img-responsive">
                     <div class="project-info">
                         <h3>Fitness</h3>
                     </div><!-- /.project-info -->
                     <div class="full-project">
-                        <a class="blog-thumbnail" href="#" title="">Read More<i class="fa fa-chevron-right"></i></a>
+                        <a class="blog-thumbnail" href="<?php bloginfo( 'url' ); ?>/blog" title="">Read More<i class="fa fa-chevron-right"></i></a>
                     </div><!-- /.full-project -->
                 </div><!-- /.item -->
 
-                <div class="item recent-project">
-                    <img src="http://placehold.it/400x250" class="img-responsive">
-                    <div class="project-info">
-                        <h3>Men</h3>
-                    </div><!-- /.project-info -->
-                    <div class="full-project">
-                        <a class="blog-thumbnail" href="#" title="">Read More<i class="fa fa-chevron-right"></i></a>
-                    </div><!-- /.full-project -->
-                </div><!-- /.item -->
-                
-                <div class="item recent-project">
-                    <img src="http://placehold.it/400x250" class="img-responsive">
-                    <div class="project-info">
-                        <h3>Women</h3>
-                    </div><!-- /.project-info -->
-                    <div class="full-project">
-                        <a class="blog-thumbnail" href="#" title="">Read More<i class="fa fa-chevron-right"></i></a>
-                    </div><!-- /.full-project -->
-                </div><!-- /.item -->
-
-                <div class="item recent-project">
-                    <img src="http://placehold.it/400x250" class="img-responsive">
-                    <div class="project-info">
-                        <h3>Parents</h3>
-                    </div><!-- /.project-info -->
-                    <div class="full-project">
-                        <a class="blog-thumbnail" href="#" title="">Read More<i class="fa fa-chevron-right"></i></a>
-                    </div><!-- /.full-project -->
-                </div><!-- /.item -->
-
-                <div class="item recent-project">
-                    <img src="http://placehold.it/400x250" class="img-responsive">
-                    <div class="project-info">
-                        <h3>Corporate</h3>
-                    </div><!-- /.project-info -->
-                    <div class="full-project">
-                        <a class="blog-thumbnail" href="#" title="">Read More<i class="fa fa-chevron-right"></i></a>
-                    </div><!-- /.full-project -->
-                </div><!-- /.item -->
-                
-                <div class="item recent-project">
-                    <img src="http://placehold.it/400x250" class="img-responsive">
-                    <div class="project-info">
-                        <h3>Foodies</h3>
-                    </div><!-- /.project-info -->
-                    <div class="full-project">
-                        <a class="blog-thumbnail" href="#" title="">Read More<i class="fa fa-chevron-right"></i></a>
-                    </div><!-- /.full-project -->
-                </div><!-- /.item -->
                 
 
 
@@ -306,5 +249,14 @@ get_header(); ?>
 	</div><!-- /jumbotron -->
 */?>
      
+	<div class="map-container">
+	    <div class="row">
+	        <section id="cd-google-map no-bottom-pad">
+	            <div id="google-container"></div>
+	            <div id="cd-zoom-in"></div>
+	            <div id="cd-zoom-out"></div>
+	        </section>
+	    </div><!-- /.row -->
+	</div>
 
 <?php get_footer(); ?>

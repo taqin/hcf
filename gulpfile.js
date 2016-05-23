@@ -24,6 +24,7 @@ gulp.task('browser-sync', function() {
     browserSync.init(["/wp-content/themes/hcf-2016/css/*.css",
         "/wp-content/themes/hcf-2016/js/*.js",
         '/wp-content/themes/hcf-2016/*.php', 
+        '/wp-content/themes/hcf-2016/page-templates/*.php', 
         '/wp-content/themes/hcf-2016/*.css'], {
         proxy: 'hcf:80'
     });

@@ -10,23 +10,17 @@
  */
 ?>
 
+<?php if ( is_front_page() && is_home() ) { ?>
 
-	<div class="map-container">
-	    <div class="row">
-	        <section id="cd-google-map no-bottom-pad">
-	            <div id="google-container"></div>
-	            <div id="cd-zoom-in"></div>
-	            <div id="cd-zoom-out"></div>
-	        </section>
-	    </div><!-- /.row -->
-	</div>
+<?php } else if ( is_singular( 'recipe' ) ){ ?>
 
+<?php } ?>
     <!-- Footer -->
     <footer>
         <div class="container">
             <div class="row text-center">
                 <div class="col-md-12 segment">
-                    <a href="#" title="Hallooou - HTML5 Template">
+                    <a href="#" title="">
                         <h2>
                         	<img class="img-responsive" src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/logo.png" alt="<?php bloginfo( 'name' ); ?>">
                         </h2>
@@ -81,6 +75,7 @@
     <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/plugins/wow.min.js"></script>    
     <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/plugins/owl.carousel.min.js"></script>
     <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/plugins/jquery.parallax-1.1.3.js"></script>
+    <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/plugins/salvattore.min.js"></script>
 <!--    <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/plugins/jquery.magnific-popup.min.js"></script>
     <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/plugins/jquery.mb.YTPlayer.min.js"></script>
     <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/plugins/jquery.countTo.js"></script>
