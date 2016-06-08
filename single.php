@@ -39,9 +39,6 @@ get_header(); ?>
 							<?php endwhile; // end of the loop. ?>		
 
 							<div id="right-advert" class=" col-md-4 hidden-xs">
-								<p class="small text-center">Advertisement</p>
-								<a href="<?php bloginfo( 'url' ); ?>/family/kids-party/"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/advert-blog.jpg" alt="Check Out Our Party Packages" class="img-responsive"></a>
-								<hr>
 								<h4>Interesting Articles</h4>
 								<?php query_posts( 'posts_per_page=5' ); ?>
 								<?php while ( have_posts() ) : the_post(); ?>

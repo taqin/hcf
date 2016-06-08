@@ -133,7 +133,7 @@ cite { color: #255AA7; font-style: italic;}
 		.btn-contact:hover { background: #FFF; color: #255AA7; font-weight: bold; }
 header { background: #ECECEC;}
 header#home-header { background: none; }
-
+.div-clear { clear: both; }
 .navbar-default {
 	background: none;
 	border: none;

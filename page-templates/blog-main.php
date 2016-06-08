@@ -28,7 +28,7 @@ get_header(); ?>
     <div class="jumbotron">
 		<div class="row">
 			<div class="container">
-				<h2 class="section-title">Your friendly health consultants</h2>
+				<h2 class="section-title">Nutrition Reads</h2>
 				<h3>Bring clarity to all health myths and jargons</h3>
 				<a href="<?php bloginfo( 'url' ); ?>/enquiry" class="btn btn-contact btn-lg">Get Started!</a>
 				
@@ -46,7 +46,17 @@ get_header(); ?>
 
 
 				<div class="col-sm-12">
-					<h1><? the_title(); ?></h1>
+						<div class="col-md-4"><h1><? the_title(); ?></h1></div>
+						<div class="col-md-8" style="text-align:right;">
+							<a href="<?php bloginfo('url'); ?>/category/lifestyle" class="btn btn-primary">Lifestyle</a>
+							<a href="<?php bloginfo('url'); ?>/category/fitness" class="btn btn-primary">Fitness</a>
+							<a href="<?php bloginfo('url'); ?>/category/men" class="btn btn-primary">Men</a>
+							<a href="<?php bloginfo('url'); ?>/category/women" class="btn btn-primary">Women</a>
+							<a href="<?php bloginfo('url'); ?>/category/children" class="btn btn-primary">Children</a>
+							<a href="<?php bloginfo('url'); ?>/category/workplace" class="btn btn-primary">Workplace</a>
+						</div><div class="div-clear"></div>	
+						
+						
 
 						<div id="grid" data-columns>
 						<?php query_posts('howposts=-1'); ?>

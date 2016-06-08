@@ -40,7 +40,7 @@ get_header(); ?>
 					</div>
 				</div>			
 
-					<div class="services-panel row">
+					<div id="services1" class="services-panel row">
 						<div class="col-sm-6 col-md-4 col-md-offset-2 info">
 							<h3>HEALTHY COOKING</h3>
 							<hr>
@@ -53,7 +53,7 @@ get_header(); ?>
 					</div>
 
 
-					<div class="services-panel row alt">
+					<div id="services2" class="services-panel row alt">
 						<div class="col-sm-6 col-md-6 img-thumb">
 							<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/service2-workplacewellness.jpg" class="img-responsive">
 						</div>
@@ -66,7 +66,7 @@ get_header(); ?>
 					</div>
 				
 
-					<div class="services-panel row">
+					<div id="services3" class="services-panel row">
 						<div class="col-sm-6 col-md-4 col-md-offset-2 info">
 							<h3>NUTRITION EDUCATION</h3>
 							<hr>
@@ -79,7 +79,7 @@ get_header(); ?>
 					</div>
 
 
-					<div class="services-panel row alt">
+					<div id="services4" class="services-panel row alt">
 						<div class="col-sm-6 col-md-6 img-thumb">
 							<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/service4-personalisedconsultation.jpg" class="img-responsive">
 						</div>
@@ -92,7 +92,7 @@ get_header(); ?>
 					</div>
 				
 
-					<div class="services-panel row">
+					<div id="services5" class="services-panel row">
 						<div class="col-sm-6 col-md-4 col-md-offset-2 info">
 							<h3>RECIPES</h3>
 							<hr>
@@ -105,7 +105,7 @@ get_header(); ?>
 					</div>
 
 
-					<div class="services-panel row alt">
+					<div id="services6" class="services-panel row alt">
 						<div class="col-sm-6 col-md-6 img-thumb">
 							<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/service6-supermarket.jpg" class="img-responsive">
 						</div>
@@ -118,7 +118,7 @@ get_header(); ?>
 					</div>
 
 
-					<div class="services-panel row">
+					<div id="services7" class="services-panel row">
 						<div class="col-sm-6 col-md-4 col-md-offset-2 info">
 							<h3>FOOD INDUSTRY CONSULTATION</h3>
 							<hr>

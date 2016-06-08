@@ -111,7 +111,7 @@ get_header(); ?>
 		        <img src="<?php bloginfo('stylesheet_directory') ?>/images/service1-balance.jpg" class="img-responsive">
 		        <div class="overlay">
 		           <h2>Corporate Wellness</h2>
-		           <a class="info" href="#">Learn More</a>
+		           <a class="info" href="<?php bloginfo( 'url' ); ?>/services#services2">Learn More</a>
 		        </div>
 		    </div>
 		</div>
@@ -120,7 +120,7 @@ get_header(); ?>
 		        <img src="<?php bloginfo('stylesheet_directory') ?>/images/service2-boost.jpg" class="img-responsive">
 		        <div class="overlay">
 		           <h2>Supermarket Tour</h2>
-		           <a class="info" href="#">Learn More</a>
+		           <a class="info" href="<?php bloginfo( 'url' ); ?>/services#services6">Learn More</a>
 		        </div>
 		    </div>
 		</div>
@@ -129,7 +129,7 @@ get_header(); ?>
 		        <img src="<?php bloginfo('stylesheet_directory') ?>/images/service3-cool.jpg" class="img-responsive">
 		        <div class="overlay">
 		           <h2>Healthy Cooking</h2>
-		           <a class="info" href="#">Learn More</a>
+		           <a class="info" href="<?php bloginfo( 'url' ); ?>/services#services1">Learn More</a>
 		        </div>
 		    </div>
 		</div>	
@@ -138,7 +138,7 @@ get_header(); ?>
 		        <img src="<?php bloginfo('stylesheet_directory') ?>/images/service4-graceful.jpg" class="img-responsive">
 		        <div class="overlay">
 		           <h2>Recipes</h2>
-		           <a class="info" href="#">Learn More</a>
+		           <a class="info" href="<?php bloginfo( 'url' ); ?>/services#services5">Learn More</a>
 		        </div>
 		    </div>
 		</div>
@@ -150,7 +150,7 @@ get_header(); ?>
 		        <img src="<?php bloginfo('stylesheet_directory') ?>/images/service5-happy.jpg" class="img-responsive">
 		        <div class="overlay">
 		           <h2>Personalised Dietary Consultation</h2>
-		           <a class="info" href="#">Learn More</a>
+		           <a class="info" href="<?php bloginfo( 'url' ); ?>/services#services4">Learn More</a>
 		        </div>
 		    </div>
 		</div>
@@ -159,7 +159,7 @@ get_header(); ?>
 		        <img src="<?php bloginfo('stylesheet_directory') ?>/images/service8-revamp.jpg" class="img-responsive">
 		        <div class="overlay">
 		           <h2>Nutrition Education</h2>
-		           <a class="info" href="#">Learn More</a>
+		           <a class="info" href="<?php bloginfo( 'url' ); ?>/services#services3">Learn More</a>
 		        </div>
 		    </div>
 		</div>
@@ -168,7 +168,7 @@ get_header(); ?>
 		        <img src="<?php bloginfo('stylesheet_directory') ?>/images/service7-healthy.jpg" class="img-responsive">
 		        <div class="overlay">
 		           <h2>Food Industry Consultation</h2>
-		           <a class="info" href="#">Learn More</a>
+		           <a class="info" href="<?php bloginfo( 'url' ); ?>/services#services7">Learn More</a>
 		        </div>
 		    </div>
 		</div>		
